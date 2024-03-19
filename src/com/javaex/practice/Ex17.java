@@ -29,7 +29,26 @@ public class Ex17 {
             System.out.println("소득세는 "+tax+" 입니다.");
         } 
         sc.close();
+        
+
+//
+//                if (cost < 0) {
+//                    System.out.println("잘못 입력했습니다.");
+//                } else {
+//                    if (cost <= 1000) {
+//                        tax = 0.09 * cost;
+//                    } else if (cost <= 4000) {
+//                        tax = 1000 * 0.09 + 0.18 * (cost - 1000);
+//                    } else if (cost < 8000) {
+//                        tax = 1000 * 0.09 + 3000 * 0.18 + 0.27 * (cost - 4000);
+//                    } else { // cost >= 8000
+//                        tax = 1000 * 0.09 + 3000 * 0.18 + 4000 * 0.27 + 0.36 * (cost - 8000);
+//                    }
+//                        System.out.println("소득세는 " + tax + " 입니다.");       
+//                }
+//
+//                sc.close();
+         }
 
 	}
 
-}
